@@ -1,11 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Which Avatar element represent you?</title>
-</head>
-<body>
-    
-</body>
+    <link rel="icon" , type="image/jp" , href="pics/nature.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Which <u>Element</u> Are You?</h1>
+      <hr />
+    </header>
+    <main>
+      <form id="quiz">
+        <section class="radio-container">
+          <label for="problem-solving" class="questions">
+            <br />
+            How do you approach problem-solving?</label
+          >
+          <br />
+          <br /><input
+            type="radio"
+            id="quickDecisions"
+            value="quickDecisions"
+            name="problem-solving"
+          />
+          <label for="quickDecisions"
+            >I quickly make decisions and take action</label
+          >
+
+          <br /><input
+            type="radio"
+            id="wellThought"
+            value="wellThought"
+            name="problem-solving"
+          />
+          <label for="wellThought"
+            >I make well-thought-out plans and follow them</label
+          >
+
+          <br />
+          <input
+            type="radio"
+            id="intuitionFeelings"
+            value="intuitionFeelings"
+            name="problem-solving"
+          />
+          <label for="intuitionFeelings"
+            >I rely on my intuition and feelings</label
+          >
+
+          <br /><input
+            type="radio"
+            id="brainstormOptions"
+            value="brainstormOptions"
+            name="problem-solving"
+          />
+          <label for="brainstormOptions"
+            >I brainstorm different options and seek others' opinions</label
+          >
+        </section>
+
+        <section class="ques_style">
+          <label for="color" class="questions"
+            ><br />
+            What's your favorite color?</label
+          >
+          <br />
+          <input type="radio" id="red" value="red" name="color" />
+          <label for="red">Red</label>
+
+          <br /><input type="radio" id="blue" value="blue" name="color" />
+          <label for="blue">Blue</label>
+
+          <br /><input type="radio" id="green" value="green" name="color" />
+          <label for="green">Green</label>
+
+          <br /><input type="radio" id="yellow" value="yellow" name="color" />
+          <label for="yellow">Yellow</label>
+
+          <br /><input type="radio" id="brown" value="brown" name="color" />
+          <label for="brown">Brown</label>
+
+          <br /><input type="radio" id="black" value="black" name="color" />
+          <label for="black">Black</label>
+
+          <br /><input type="radio" id="white" value="white" name="color" />
+          <label for="white">White</label>
+
+          <br /><input type="radio" id="pink" value="pink" name="color" />
+          <label for="pink">Pink</label>
+
+          <br />
+          <br />
+        </section>
+
+        <section class="radio-container">
+          <label for="friendsDescription" class="questions"
+            >How would your friends describe you?</label
+          >
+          <br /><input
+            type="radio"
+            id="energy"
+            value="energy"
+            name="friendsDescription"
+          />
+          <label for="energy">Always full of energy and ideas</label>
+
+          <br /><input
+            type="radio"
+            id="reliable"
+            value="reliable"
+            name="friendsDescription"
+          />
+          <label for="reliable">Calm, reliable, and trustworthy</label>
+
+          <br /><input
+            type="radio"
+            id="empathetic"
+            value="empathetic"
+            name="friendsDescription"
+          />
+          <label for="empathetic">Deep, empathetic, and intuitive</label>
+
+          <br /><input
+            type="radio"
+            id="social"
+            value="social"
+            name="friendsDescription"
+          />
+          <label for="social">Social butterfly who loves to chat</label>
+        </section>
+
+        <section class="radio-container">
+          <label for="outdoorActivity" class="questions">
+            <br />
+            Which of these outdoor activities would you most enjoy doing?</label
+          >
+          <br />
+          <br /><input
+            type="radio"
+            id="gardenSitting"
+            value="gardenSitting"
+            name="outdoorActivity"
+          />
+          <label for="gardenSitting">Tending a garden</label>
+
+          <br /><input
+            type="radio"
+            id="campfire"
+            value="campfire"
+            name="outdoorActivity"
+          />
+          <label for="campfire">Sitting by a campfire</label>
+
+          <br /><input
+            type="radio"
+            id="flyingKite"
+            value="flyingKite"
+            name="outdoorActivity"
+          />
+          <label for="flyingKite">Flying a kite</label>
+
+          <br />
+          <input
+            type="radio"
+            id="kayaking"
+            value="kayaking"
+            name="outdoorActivity"
+          />
+          <label for="kayaking">Kayaking</label>
+        </section>
+
+        <section class="radio-container">
+          <label for="dreamVacation" class="questions">
+            <br />
+            My dream vacation would be to... <br />
+          </label>
+          <br />
+          <input
+            type="radio"
+            id="spaceShuttle"
+            value="spaceShuttle"
+            name="dreamVacation"
+          />
+          <label for="spaceShuttle">Ride on a space shuttle</label>
+
+          <br /><input
+            type="radio"
+            id="safari"
+            value="safari"
+            name="dreamVacation"
+          />
+          <label for="safari">Go on an African safari</label>
+
+          <br /><input
+            type="radio"
+            id="hawaiian"
+            value="hawaiian"
+            name="dreamVacation"
+          />
+          <label for="hawaiian">Visit Hawaiian volcanoes</label>
+
+          <br /><input
+            type="radio"
+            id="caribbean"
+            value="caribbean"
+            name="dreamVacation"
+          />
+          <label for="caribbean">Go on a Caribbean cruise</label>
+        </section>
+
+        <section class="radio-container">
+          <label for="movies" class="questions"
+            ><br />
+            Among these movies, which would you choose to watch?</label
+          >
+          <br />
+          <br /><input
+            type="radio"
+            id="journey"
+            value="journey"
+            name="movies"
+          />
+          <label for="journey">Journey to the Center of the Earth</label>
+
+          <br />
+          <input type="radio" id="alice" value="alice" name="movies" />
+          <label for="alice">Alice in Wonderland</label>
+
+          <br /><input
+            type="radio"
+            id="firestarter"
+            value="firestarter"
+            name="movies"
+          />
+          <label for="firestarter">Firestarter</label>
+
+          <br /><input
+            type="radio"
+            id="leagues"
+            value="leagues"
+            name="movies"
+          />
+          <label for="leagues">20,000 Leagues Under the Sea</label>
+
+          <br /><input type="radio" id="wizard" value="wizard" name="movies" />
+          <label for="wizard">The Wonderful Wizard of Oz</label>
+
+          <br /><input
+            type="radio"
+            id="poseidon"
+            value="poseidon"
+            name="movies"
+          />
+          <label for="poseidon">The Poseidon Adventure</label>
+
+          <br /><input
+            type="radio"
+            id="inferno"
+            value="inferno"
+            name="movies"
+          />
+          <label for="inferno">Inferno</label>
+        </section>
+
+        <section class="radio-container">
+          <label for="foods" class="questions"
+            ><br />
+            Among these foods, which would you choose to eat?</label
+          >
+          <br />
+          <br />
+          <input type="radio" id="icecream" value="icecream" name="foods" />
+          <label for="icecream">Ice cream</label>
+
+          <br />
+          <input type="radio" id="bagel" value="bagel" name="foods" />
+          <label for="bagel">Bagel</label>
+
+          <br />
+          <input type="radio" id="nachos" value="nachos" name="foods" />
+          <label for="nachos">nachos</label>
+
+          <br />
+          <input type="radio" id="pineapple" value="pineapple" name="foods" />
+          <label for="pineaple">Pineapple</label>
+
+          <br />
+        </section>
+
+        <br />
+
+        <section class="ques_style">
+          <label for="season" class="questions">Pick a season</label>
+          <br />
+          <input type="radio" , id="spring" , value="spring" , name="season" />
+
+          <label for="spring">spring</label>
+
+          <br />
+          <input type="radio" , id="summer" , value="summer" , name="season" />
+          <label for="summer">summer</label>
+
+          <br />
+          <input type="radio" , id="autumn" , value="autumn" , name="season" />
+          <label for="autumn">autumn</label>
+
+          <br />
+          <input type="radio" , id="winter" , value="winter" , name="season" />
+          <label for="winter">winter</label>
+        </section>
+        <br />
+
+        <section class="ques_style">
+          <label for="birthmonth" class="questions"
+            ><br />
+            Choose your birth month</label
+          >
+          <br />
+          <br /><input
+            type="radio"
+            id="january"
+            value="january"
+            name="birthmonth"
+          />
+          <label for="january">January</label>
+
+          <br /><input
+            type="radio"
+            id="february"
+            value="february"
+            name="birthmonth"
+          />
+          <label for="february">February</label>
+
+          <br /><input
+            type="radio"
+            id="march"
+            value="march"
+            name="birthmonth"
+          />
+          <label for="march">March</label>
+
+          <br /><input
+            type="radio"
+            id="april"
+            value="april"
+            name="birthmonth"
+          />
+          <label for="april">April</label>
+
+          <br /><input type="radio" id="may" value="may" name="birthmonth" />
+          <label for="may">May</label>
+
+          <br /><input type="radio" id="june" value="june" name="birthmonth" />
+          <label for="june">June</label>
+
+          <br /><input type="radio" id="july" value="july" name="birthmonth" />
+          <label for="july">July</label>
+
+          <br /><input
+            type="radio"
+            id="august"
+            value="august"
+            name="birthmonth"
+          />
+          <label for="august">August</label>
+
+          <br /><input
+            type="radio"
+            id="september"
+            value="september"
+            name="birthmonth"
+          />
+          <label for="september">September</label>
+
+          <br /><input
+            type="radio"
+            id="october"
+            value="october"
+            name="birthmonth"
+          />
+          <label for="october">October</label>
+
+          <br /><input
+            type="radio"
+            id="november"
+            value="november"
+            name="birthmonth"
+          />
+          <label for="november">November</label>
+
+          <br /><input
+            type="radio"
+            id="december"
+            value="december"
+            name="birthmonth"
+          />
+          <label for="december">December</label>
+          <br />
+          <br />
+        </section>
+        <input id="submit" type="submit" />
+      </form>
+    </main>
+
+    <footer>
+      <p>@2024 nuha</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
