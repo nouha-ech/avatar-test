@@ -3,4 +3,5 @@ this was mainly made to test git commands and practice what i learned on js. im 
 
 
 #Lessons Learned
-This was a nice mini project to explore oop for the first time and work with git 
+This was a nice mini project to explore oop for the first time 
+
